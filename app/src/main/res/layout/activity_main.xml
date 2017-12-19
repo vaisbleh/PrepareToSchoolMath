@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.vaisbleh.user.preparetoschoolmath.MainActivity">
+
+    <LinearLayout
+        android:layout_width="500dp"
+        android:layout_height="match_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/shapeQuantityBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="8dp"
+            android:autoSizeMinTextSize="14dp"
+            android:text="@string/shape_quantity"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/numNumBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="8dp"
+            android:autoSizeMinTextSize="14dp"
+            android:text="@string/memory_num_num"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/numQuantityBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="8dp"
+            android:autoSizeMinTextSize="14dp"
+            android:text="@string/memory_num_quantity"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/sequentialNumBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="8dp"
+            android:autoSizeMinTextSize="14dp"
+            android:text="@string/sequential_numbers"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/beforeAfterBtn"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:autoSizeMaxTextSize="8dp"
+            android:autoSizeMinTextSize="14dp"
+            android:text="Before after"
+            android:textSize="12sp" />
+    </LinearLayout>
+</RelativeLayout>

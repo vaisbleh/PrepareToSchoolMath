@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Prepare to school Math</string>
+    <string name="shape_quantity">shape - quantity</string>
+    <string name="new_game">new game</string>
+    <string name="back_to_main_manu">back to main menu</string>
+    <string name="memory_num_num">memory num - num</string>
+    <string name="memory_num_quantity">memory num - quantity</string>
+    <string name="sequential_numbers">sequential numbers</string>
+</resources>
